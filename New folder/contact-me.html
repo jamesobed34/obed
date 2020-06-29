@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1 align="center">INTO A SEMAJ</h1>
+        <h3>Contact Me</h3>
+        <input type="search" name="search" placeholder="Input keyword" >
+        <input type="submit" value="Search" />
+        <ul>
+                <li> <a href= "index.html"> HOME</a></li>
+                <li><a href= "about-me.html">ABOUT-ME</a></li>
+                <li><a href="contact-me.html">CONTACT ME</a></li>
+        </ul> <br><br>
+    <p>For those of you that would want to reach me, or send me a <a href="mailto:jamesobed34@gmail.com">mail</a> or get across to me via social media, this is the exact page where you can do all that. </p>
+    <ul>    
+    <li><a href="#caa">Register</a></li>
+    <li><a href="#sm">Social Media links</a> </li>
+    </ul><br><br>
+    <h4 id="caa">Create an Account </h4>
+    <form>
+        <fieldset>
+            <legend>Login Details</legend>
+    <p>
+        Username: <input type="text" name="usermane" maxlength="50" required="required" placeholder="Username">
+    </p>
+    <p title="We recommend that you choose a strong password for security purpose">
+        Password: <input type="password" name="passoword" maxlength="10" required="required" placeholder="Password">
+        <p title="Confirm Password which you entered">Confirm Password
+            <input type="password" name="confirm password" placeholder="Confirm Password" required="required" maxlength="10">
+        </p>
+    </p>
+        </fieldset><br>
+        <fieldset>
+            <legend>Personal Details</legend>
+    <p>Select an age range
+        <input type="checkbox" name="age" value="13-20" >13-20
+        <input type="radio" name="age" value="21-30">21-30
+        <input type="radio" name="age" value="31-Above">31-Above
+    </p>
+    <p>Gender <select name="gender">
+            <option value="male">Male</option>
+            <option  value="female">Female</option>
+            <option value="none">None</option>
+        </select></p>
+        <label>Date of Birth:</label>
+    <input type="date" name="date">
+    <form method="post">
+    <p>Please upload a full picture of Yourself</p>
+    <input type="file" name="profile picture" required="required">
+    <input type="submit" value="Upload">
+    </form>
+        </fieldset><br>
+        <fieldset>
+            <legend>Contact Info</legend>
+    <p>Email:</p>
+    <input type="email" name="email" placeholder="Email" required="required">
+    <p>Phone Number</p>
+    <input type="number" name="contact" placeholder="Phone Number" required="required" maxlength="13">
+    <p>Website</p>
+    <input type="url" name="website" placeholder="Website" required="required">
+        </fieldset><br>
+        <fieldset>
+            <legend>Others</legend>
+            <p> Please select your point of interest below</p>
+                <select name="point of interest" multiple="2" size="2">
+                    <option value="Movies">Movies</option>
+                    <option value="music">Music</option>
+                    <option value="technology">Tech</option>
+                    <option value="health">Health</option>
+                    <option value="career">Career</option>
+                    <option value="lifestyle">Lifestyle</option>
+                    <option value="others">Others</option>
+                </select>
+        </fieldset>
+    <br><br>
+    
+    <input type="submit" value="Submit">
+     <br><br>
+    <h4 id="sm"> Social Media</h4>
+    <p>Here is how to get in touch with me via my social media handle</p>
+    </form>
+    </body>
+</html>
